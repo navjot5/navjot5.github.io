@@ -1,0 +1,86 @@
+# Site
+repository: navjot5/personal-site
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Navjot Singh
+title: Senior Software Engineer
+email: navjotsingh.nbs@gmail.com
+website: www.github.com/navjot5/personal-site
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+github_username:  navjot5
+linkedin_username: singh-navjot
+
+## Additional icon links
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
+
+# About Section
+# about_title: About Me
+#about_profile_image: images/profile.jpg
+layout: middle
+about_content: |
+  <center><h2>Hello, I’m <b>Navjot Singh</b>. I develop <b>software</b> from conception to deployment.</h2></center>
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Apple
+        link: https://www.apple.com/
+        sub_title: Senior Software Engineer Consultant
+        caption: March 2023 - Present
+        description: | # this will include new lines to allow paragraphs
+          Architected and deployed Skyfall: a product that enhanced visibility into service ownership and facilitated informed decision-making across Apple Information Security.
+
+      - layout: left
+        title: Cisco
+        link: https://www.cisco.com/
+        sub_title: Senior Software Engineer
+        caption: September 2018 - March 2023
+        description: | # this will include new lines to allow paragraphs
+            Led a high performing team of 5 engineers on the Cisco Webex developer tools team. The tools team provides common functionality and support to QA and automation teams. Architected API server in python and led software migration to AWS. 
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of California, Davis
+        caption: 2014 - 2018
+        sub_title: BS Computer Science
+        description: | # this will include new lines to allow paragraphs
+          During my time at UC Davis, I learnt key skills that have I have taken through my career such as teamwork and working to tight deadlines.
+
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#      - Rock climbing
+#      - Gaming
+#      - Knitting
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
