@@ -9,7 +9,7 @@ version: 2
 name: Navjot Singh
 title: Senior Software Engineer
 email: navjotsingh.nbs@gmail.com
-website: www.github.com/navjot5/personal-site
+website: https://navjot5.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: never
